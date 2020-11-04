@@ -8,7 +8,15 @@ import { Submit } from './stepForm/Submit'
 const defaultData = {
     name: "",
     email: "",
-    password: ""
+    password: "",
+    city:"",
+    state:"",
+    zipCode:"",
+    phoneNum:"",
+    ceditCardNum:"",
+    expiryDate:"",
+    cvv:"",
+    bzc:""
 };
 const steps = [
     { id: "names" },
