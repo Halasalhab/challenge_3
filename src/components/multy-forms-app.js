@@ -6,9 +6,9 @@ import { Contact } from './stepForm/Contact'
 import { Review } from './stepForm/Review'
 import { Submit } from './stepForm/Submit'
 const defaultData = {
-    firstName: "",
-    lastName: "",
-    nickName: ""
+    name: "",
+    email: "",
+    password: ""
 };
 const steps = [
     { id: "names" },
